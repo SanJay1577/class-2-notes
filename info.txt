@@ -1,0 +1,28 @@
+what is css ? done
+   
+differnt types of using a css ? done
+selectors, property and value ? -> interview question - done
+
+class vs id  -> interview question -done
+
+use of important -> interview question - done
+      
+display property : inline, block, inline-block , - done
+
+
+  - priority vise list the css 
+1. inline css 
+2. internal css 
+3. external css 
+
+   - properties 
+       list property  done
+       font properties done
+       border properties done
+       text properties
+
+class , id 
+ class -> multiple selectors 
+ id -> unique selector ku we use id
+
+ inline -> width and height edukala
