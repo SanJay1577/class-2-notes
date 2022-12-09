@@ -1,0 +1,49 @@
+.main-flex{
+    border: 2px solid blue;
+    margin: 25px;
+    padding:24px;
+    height: 100vh;
+    display: flex;
+     /* justify-conten acts in  x-axis 
+      center
+      flex-start
+      flex-end
+      space-around
+      space-between
+      space-evenly
+     */
+    justify-content: center ;
+
+       /* align-items acts in  y-axis 
+      center
+      flex-start
+      flex-end
+     */
+     align-items: flex-start;
+
+        /* align-content acts in  x-axis 
+      center
+      flex-start
+      flex-end
+      space-around
+      space-between
+      space-evenly
+     */
+
+     align-content: center;
+
+     flex-wrap: wrap;
+     gap:1rem;
+     flex-direction: row;
+}
+
+h1{
+    text-align: center;
+}
+
+.flex-div{
+    border:2px solid red;
+    width:100px;
+    height: 100px;
+    text-align: center;
+}

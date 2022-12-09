@@ -10,7 +10,7 @@ use of important -> interview question - done
 display property : inline, block, inline-block , - done
 
 
-  - priority vise list the css 
+ - priority vise list the css 
 1. inline css 
 2. internal css 
 3. external css 
@@ -19,10 +19,36 @@ display property : inline, block, inline-block , - done
        list property  done
        font properties done
        border properties done
-       text properties
+       text properties done
 
 class , id 
  class -> multiple selectors 
  id -> unique selector ku we use id
 
  inline -> width and height edukala
+//
+ pseudo-classes 
+ 
+      link
+      visted
+      hover
+      active
+      done
+
+ box-model -> interview questions 
+ padding margin border
+     padding <-border-< margin 
+   gradient - 
+   linear-gradient( yellow, green  , red  );
+    radial-gradient( yellow, green  , red  );
+   repeating-radial-gradient( yellow, green 10% , red 12% );
+
+ Grid
+ Flex 
+
+ position property :
+   fixed, static, relative, absoulte, sticky 
+
+parent inherit 
+Task add different colour to all boxes on hover (linear gardient colours)
+move the boxes to he center of the screen

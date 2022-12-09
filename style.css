@@ -1,3 +1,14 @@
+body{
+ padding: 0;
+ margin:0;
+ position: relative;
+ 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style-type: none;
     font-size: larger;
@@ -8,12 +19,15 @@ ul {
 li {
     display: inline-block;
     padding : 5px;
-    color:blueviolet;
 }
 nav {
+
     border: 1px solid black;
-    border-radius: 10px; 
-    text-align: end;
+    width:100%;
+    position: fixed;
+    top:0;
+    background-color: black;
+    text-align: right;
 }
 main{
     text-align: center;
@@ -33,7 +47,11 @@ main{
 }
 #home{
  
-    color: green
+    color: green;
+    background-color: greenyellow;
+    padding-bottom: 15px;
+    border: 1px solid red;
+    margin: 15px;
 }
 
 #about{
@@ -60,7 +78,7 @@ main{
     color: lightgray;
     background-color: brown;
 }
-span{
+/* span{
     display: inline-block;
     border : 1px solid black;
     padding:10px;
@@ -68,4 +86,91 @@ span{
     height: 150px;
     color:whitesmoke;
     background-color: burlywood;
+} */
+
+#home:hover{
+    cursor: pointer;
+}
+
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    background-color: aquamarine;
+   
+}
+
+/* un visted */
+a:link{
+    color:red;
+}
+
+/* vistited */
+a:visited{
+    color: violet;
+}
+
+/* when you try to click */
+a:hover{
+    color:white;
+    font-size: large;
+    
+}
+/* when you click */
+a:active{
+    color:green;
+}
+
+#poistions{
+    border: 1px solid black;
+    margin: 15px;
+    height :500px;
+    background-color: whitesmoke;
+
+
+  
+}
+.box{
+   border: 2px solid black; 
+   width: 100px;
+   height: 100px;
+   margin: 2px;
+
+}
+
+
+ span {
+    color: inherit;
+   
+}
+
+#absolute{
+  background-color: brown;
+  /* position: absolute;
+  right:0;
+  top:0; */
+
+}
+
+#relative{
+  background-color: chocolate;
+  /* position: relative; 
+   left: 50px;
+  bottom :30px;
+  right:15px;
+  left: 10px;  */
+}
+
+#fixed{
+    background-color: blueviolet;
+    /* position: fixed;
+    top:0;
+    left:0; */
+}
+
+#sticky{
+    position:sticky;
+    top:0;
+   background-color: pink;
+
 }
