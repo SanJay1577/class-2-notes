@@ -52,3 +52,49 @@ class , id
 parent inherit 
 Task add different colour to all boxes on hover (linear gardient colours)
 move the boxes to he center of the screen
+
+   .overflow-main::-webkit-scrollbar : none 
+
+dropbox
+measurements 
+fonts 
+icons 
+media query
+
+12/12/2022
+
+overflow :
+hidden done
+auto  done
+scroll done
+visible done
+x and y  done
+
+measurements :
+cm , mm , in
+1 inch = 96px; 
+px = 1/96 inch
+d = 5 inch  d: 2em : 10inch
+em   -  reference/ element size = em 
+rem   - reference/ root of element size 
+
+vh - over view content (v) h - height
+vw -  over view content (v) w - width
+
+%  - reference-[parent] / root parent element 
+
+    box-shadow: 5px 5px 5px 2px black;
+             /* x    y  blur radius color */
+   text-shadow: 1px 1px 5px whitesmoke;      
+
+
+fonts  done
+icons  done
+
+media query
+  - 3 defauult 
+    1. desktop (big screen)
+    2. tab or big smart phones small screen laptop
+    3. smartphone (small)
+
+

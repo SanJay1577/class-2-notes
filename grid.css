@@ -5,7 +5,7 @@
     border:5px solid black;
      /* grid-template-columns : 50px 50px 50px 50px; */
     /* grid-template-rows: 50px 50px ;  */
-     grid-template-columns: repeat(3, 1fr);
+     grid-template-columns: repeat(2, 1fr);
     /* place-items: center; */
 }
 

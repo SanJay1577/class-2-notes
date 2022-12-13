@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 0;
+   background-color: whitesmoke;
+   scroll-behavior: smooth;
+}
+
+nav{
+    position: sticky;
+    top :0;
+    text-align: end;
+    background-color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    padding:10px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color:rgb(81, 180, 180);
+    padding:10px;
+
+}
+
+a:hover{
+    color:rgb(14, 107, 107);
+    cursor: pointer;
+}
+
+
+.section-div{
+
+     display: grid;
+     place-items: center;
+
+}
+
+.main-section{
+    height: 100vh;
+    margin:64px;
+    display: grid;
+    place-items: center;
+    width:80%;
+    text-align: center;
+
+}
+
+.port-image{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    
+
+}
+
+#home-section{
+    display: grid;
+    margin-bottom: 24px;
+    place-items:center;
+    grid-template: 
+    "pic info" 
+    "pic link" ;
+}
+
+.pic-content{
+    grid-area: pic;
+    background-color: white;
+    width:100%;
+    height: 100%;
+
+
+}
+.info-content{
+    grid-area : info;
+    background-color: violet;
+    width:100%;
+    height: 100%;
+
+}
+.link-content{
+    grid-area : link;
+    background-color: grey;
+    width:100%;
+    height: 100%;
+
+}
+
+@media only screen  and (min-width :420px) and (max-width: 600px) {
+    #home-section{
+        grid-template: 
+        "pic  pic" 
+        "info link" ;
+    }
+}
+
+@media only screen  and (min-width :320px) and (max-width: 420px) {
+    #home-section{
+        grid-template: 
+        "pic" 50%
+        "info" 40%
+        "link" 10%;
+    }
+    nav {
+        font-weight: 200;
+        font-size: smaller;
+    }
+   
+}

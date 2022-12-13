@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+}
+
+body{
+    background-color: blueviolet;
+}
+.overflow-main{
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    background-color: chocolate;
+    font-family: 'Playfair Display', serif;
+
+    box-shadow: 5px 5px 5px 2px black;
+             /* x    y  blur radius color */
+    text-shadow: 1px 1px 5px whitesmoke;         
+
+    /* display: none; --- no space given*/ 
+
+    /* visibility: hidden; -- space is aloocated */
+
+         /* overflow: visible; interview - css */
+         /* visible is default value the content will be 
+         visible even after the size limit */
+
+         /* overflow: hidden; */
+         /* hidden will hide the content after the limit */
+
+          /* overflow: scroll; */
+         /* extra can be scrolled inside the size limit */ 
+
+             overflow: auto;  
+          /* it will detect whether the scroll is needed or not  */
+
+        /* overflow-x: hidden; */
+        /* x and y axis selectivy we ca give properties */
+
+}
+.main-div{
+    width: 50%;
+    border: 1px solid red;
+}
+/* media query */
+/* screen for big screen */
+@media only screen and (max-width : 1200px) {
+
+  
+    body {
+        background-color: blue;
+    }
+     
+    .overflow-main{
+        background-color: aqua;
+    }
+   h1{
+    color: brown;
+   }
+}
+
+@media only screen and (max-width : 600px){
+
+    body {
+        background-color: black;
+    }
+     
+    .overflow-main{
+        background-color: burlywood;
+        color: whitesmoke;   
+        width: 90%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 420px){
+    body {
+        background-color: blanchedalmond;
+    }
+     
+    .overflow-main{
+        background-color: burlywood;
+        color: whitesmoke;   
+        width: 100%;
+        font-size: 5px;
+    }
+    
+}
